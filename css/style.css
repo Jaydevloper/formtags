@@ -1,9 +1,29 @@
+@font-face {
+    font-family: 'Fraunces';
+    src: url('../fonts/Fraunces-Black.woff2') format('woff2'),
+        url('../fonts/Fraunces-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('../fonts/Barlow-Regular.woff2') format('woff2'),
+        url('../fonts/Barlow-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 html{
     box-sizing: border-box;
 }
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Fraunces', serif ;
 
 }
 *{
@@ -28,10 +48,7 @@ img{
     max-width: 1110px;
     margin: 0 auto;
   }
- .main-section {
 
-     
-}
 
 .main-form-wrraper {
     display: flex;
@@ -146,6 +163,7 @@ img{
 }
 .main-form-label__inner-page {
     margin: 0;
+    font-family: 'Barlow';
     width: 172px;
     font-weight: 400;
     font-size: 16px;
